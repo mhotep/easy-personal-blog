@@ -1,0 +1,95 @@
+:root {
+        --ff: "Montserrat", sans-serif;
+        --p: 18px/22px var(--ff);
+        --p1: 24px/30px var(--ff);
+        --colorbody: #ffff;
+        --colora: #537fe7;
+        --colora2: #ffe537;
+        --colorp: #1e1e1e;
+        --colors: #f2f2f2;
+        --shadow: #00000030 0px 0px 10px 0px;
+        --transition: 0.3s ease-in-out;
+    }
+body{
+    font: var(--p);
+    background-color: var(--colorbody);
+    color: var(--colors);
+    text-align: center;
+    margin: auto;
+}
+p,.p1{
+    margin: 0;
+}
+.p1{
+    font: var(--p1);
+}
+.card,
+.card1,
+.card2,
+.card3{
+    background-color: var(--colorp);
+    border-radius: 12px;
+}
+.icons{
+    height: 40px;
+}
+.icons2{
+    height: 32px;
+}
+.icons1{
+    height: 60px;
+}
+.logo-icon{
+    width: 100px;
+}
+.dark {
+        --color-primary: hsl(180, 50%, 10%);
+        --color-secondary: hsl(180, 50%, 90%);
+        --color-tertiary: hsl(240, 80%, 80%);
+        --color-accent: hsl(120, 80%, 80%);
+    }
+
+div{
+	min-width: 200px;
+	height: 200px;
+}
+.c1{
+	background: purple;
+    flex: 1;
+}
+.c2{
+	background: lightgreen;
+    flex: 1;
+}
+.c3{
+	background: orange;
+    min-width: 300px;
+    flex: 1.5;
+}
+.flex-cards{
+    width: 90%;
+    max-width: 1080px;
+    margin: 100px auto;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.flex-cards > div {
+    flex: 1;
+}
+.card{
+    min-width: 160px;
+    height: 165px;
+}
+.card1{
+    min-width: 330px;
+    height: 340px;
+}
+.card2{
+    min-width: 330px;
+    height: 80px;
+}
+.card3{
+    min-width: 330px;
+    height: 165px;
+}
